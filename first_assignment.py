@@ -2,6 +2,7 @@ import random
 
 def main():
     num=random.randint(1,100)
+    print("Hi, I  have game ..you should gess the number and you have 3 attempitions to gess what,, let's start")
     for i in range(3):
         try:
             gess_num=int(input(f"Attemp {i+1}:"))
