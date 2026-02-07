@@ -35,6 +35,8 @@ def add_employ():
                "salary": check_salary(),
                "department": input("Enter Deprtment: ")
                }
+    
+    # print(new_emp['emp_id'], new_emp['name'], new_emp['joining_date'], new_emp['salary'], new_emp['department'])
     employees.append(new_emp)
     print("Good! New Employee is Added")
 
@@ -122,7 +124,7 @@ def check_id():
                     break               
 
             if not is_found:
-                break 
+                return Id 
         except ValueError:
             print("Invalid Value..Enter just Numbers")
 
